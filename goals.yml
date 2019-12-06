@@ -7,8 +7,9 @@
   preApproval: false
 - displayName: Apt Get Update
   image: ubuntu
+  descriptions:
+    completed: Apt Get Awesome!
   version: "18.04"
   command: apt-get
   arguments:
     - update
-  retry: false
