@@ -1,0 +1,14 @@
+- displayName: What is the date
+  image: ubuntu
+  version: "18.04"
+  command: date
+  arguments:
+    - +%s
+  preApproval: false
+- displayName: Apt Get Update
+  image: ubuntu
+  version: "18.04"
+  command: apt-get
+  arguments:
+    - update
+  retry: false
