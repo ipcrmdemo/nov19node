@@ -8,7 +8,7 @@
 - displayName: Apt Get Update
   image: ubuntu
   descriptions:
-    completed: Apt Get Awesome!
+    completed: Apt Get Awesome!!
   version: "18.04"
   command: apt-get
   arguments:
